@@ -43,6 +43,7 @@ export class LanguageServiceMock {
   }
 
   public getSunitizedString(key: string): string {
-    return 'THIS_IS_SANITIZED_STRING';
+    // return 'THIS_IS_SANITIZED_STRING';
+    return key;
   }
 }
