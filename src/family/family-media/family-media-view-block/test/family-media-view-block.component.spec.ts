@@ -9,9 +9,6 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { CommonServicesTestingModule } from '../../../../test/commonServicesTesting.module';
 import { TranslateTestingModule } from '../../../../test/translateTesting.module';
 
-// TODO need fix: causes 'script error'
-// I guess because of calling FamilyMediaViewBlockService.getData
-
 describe('FamilyMediaViewBlockComponent', () => {
   let componentInstance: FamilyMediaViewBlockComponent;
   let componentFixture: ComponentFixture<FamilyMediaViewBlockComponent>;
